@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="assets/style/common.css">
+    <script type="text/javascript" src="assets/script/phaser.min.js"></script>
+    <script>
+        function logout(){
+            localStorage.setItem('loggedUser', '')
+            window.location.href = 'index.html';
+
+        }
+    </script>
+
+    <style>
+        #logout{
+            margin: 20px;
+            float: right;
+            background-color: green;
+            padding:10px;
+            font-size: 15px;
+            border:0px;
+            color:white;
+        }
+    </style>
+    
+</head>
+<body>
+      <!-- Header div -->
+<div class="header">
+    <a href="index.html"><img src="assets/images/home.png" alt="" style="float: left;" width="80"></a>
+    <img src="assets/images/cs_logo.png" alt="" >
+    <input type="button" value="Logout" onclick="return logout()" id="logout">
+  </div>
+    <div style="padding-left:100px">
+        <script type="text/javascript" src="assets/script/game.js"></script>
+    </div>
+</body>
+</html>

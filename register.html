@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cybersquare - JGD</title>
+    <link rel="stylesheet" href="assets/style/common.css">
+    <link rel="stylesheet" href="assets/style/form.css">
+
+    <script src="assets/script/db.js"></script>
+</head>
+<body>
+<!-- Header div -->
+<div class="header">
+    <a href="index.html"><img src="assets/images/home.png" alt="" style="float: left;" width="80"></a>
+    <img src="assets/images/cs_logo.png" alt="" >
+</div>
+<!-- login div -->
+<div class="login">
+<!-- login header -->
+  <h1 id="header">Register to play game</h1>
+<!-- start da login goodness -->
+  <form id="form">
+    
+    <input type="text" placeholder="Email/ Username" class="frm_ctrl" id="txt_username"><br>
+    <input type="passowrd"   placeholder="Password" class="frm_ctrl" id="txt_password"><br>
+    <input type="text" placeholder="Full name"  class="frm_ctrl" id="txt_name"><br>
+    Gender: <input type="radio" name="gender"  id="radio_male" checked> Male
+    <input type="radio" name="gender" id="radio_female"> Female<br><br>
+    <input type="button" onclick="return register()" value="Sign me up!">
+  </forn>
+</login>
+
+</body>
+</html>

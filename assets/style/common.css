@@ -1,0 +1,11 @@
+body{
+    background-image: url('../images/sky.png');
+}
+.header{
+    background-color:rgb(182, 234, 246); 
+    text-align: center;
+}
+  
+canvas{
+    border: 4px solid green;
+}
